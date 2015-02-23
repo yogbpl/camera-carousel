@@ -204,7 +204,6 @@ jQuery(<span class="na">function()</span>{
 &lt;head&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;title&gt;Camera Carousel&lt;/title&gt;
-&lt;link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet"&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
@@ -228,3 +227,6 @@ jQuery(function(){
 &lt;/html&gt;
 </code>
 </pre>
+
+#view demo
+<a href="#">View Demo</a>
