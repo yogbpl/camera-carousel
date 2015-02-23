@@ -93,3 +93,36 @@ jQuery(<span class="na">function()</span>{
     </code>
 </pre>
 
+#noConfilct Method
+
+<pre>
+<code>
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;Camera Carousel&lt;/title&gt;
+&lt;link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div id="slider"&gt;&lt;/div&gt;
+
+&lt;script src="js/jquery-1.11.1.min.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+jQuery(function(){
+	jQuery.ajax({
+		type:"GET",
+		url:"index.html",
+		data:"",
+		success: function(data){
+			$('#slider').html(data);
+		}
+	});
+	})
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
