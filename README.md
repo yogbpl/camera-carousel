@@ -196,7 +196,7 @@ jQuery(<span class="na">function()</span>{
 <span class="nt">&lt;/html&gt;</span>
 
 </pre>
-<h3>noConflict file ()</h3>
+<h3>noConflict file (camera-noConflict.html)</h3>
 <pre>
 <code>
 &lt;!doctype html&gt;
